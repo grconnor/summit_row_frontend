@@ -1,0 +1,84 @@
+@import './globals.scss';
+
+.footer {
+  background-color: $primary-dark;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 4rem 0 2rem;
+  margin-top: 4rem;
+
+  .footer-main {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 2rem;
+  }
+
+  .footer-title {
+    color: $text-light;
+    font-family: $font-headings;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+
+  .footer-description {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+
+  .footer-subtitle {
+    color: $text-light;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.85rem;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 0.75rem;
+
+      a {
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        font-size: 0.95rem;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: $accent-gold;
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    padding-top: 1rem;
+  }
+
+  .footer-copyright,
+  .footer-disclaimer {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.875rem;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    padding: 3rem 0 1.5rem;
+
+    .footer-main {
+      padding-bottom: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-subtitle {
+      margin-top: 1.5rem;
+    }
+  }
+}

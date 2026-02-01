@@ -177,6 +177,10 @@ a {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
+  .cookie-learn-more {
+    margin-left: 0.5rem;
+  }
 }
 
 .main-content {
